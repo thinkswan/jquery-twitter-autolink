@@ -14,13 +14,6 @@
         "email": "thinkswan@gmail.com",
         "url": "http://grahamswan.com"
     },
-    "maintainers": [
-        {
-            "name": "Graham Swan",
-            "email": "thinkswan@gmail.com",
-            "url": "http://grahamswan.com"
-        }
-    ],
     "licenses": [
         {
             "type": "MIT",
