@@ -6,4 +6,4 @@ Please email feature requests and coupons for free donuts and coffee to [thinksw
 
 ## Bug Fixes
 
-  - None.
+  - Rewrite URLs of the following form: `grahamswan.com`, `www.grahamswan.com`
