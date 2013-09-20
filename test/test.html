@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>jQuery Twitter Autolink Test</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../jquery.twitter.autolink.min.js"></script>
+  </head>
+  
+  <body>
+    <h2>The original plaintext tweet:</h2>
+    <p>A link: http://grahamswan.com. An email: thinkswan@gmail.com. An @-mention: @underexperiment. A hashtag: #jquery.</p>
+    
+    <h2>The tweet after being run through twitter_autolink():</h2>
+    <p class="tweet">A link: http://grahamswan.com. An email: thinkswan@gmail.com. An @-mention: @underexperiment. A hashtag: #jquery.</p>
+    
+    <h2>The raw output of the autolinked tweet:</h2>
+    <pre>
+      <code></code>
+    </pre>
+    
+    <script>
+      // Autolink the tweet
+      $(".tweet").twitter_autolink();
+      
+      // Echo the HTML produced into the <code> element
+      $("code").text($(".tweet").html());
+    </script>
+  </body>
+</html>

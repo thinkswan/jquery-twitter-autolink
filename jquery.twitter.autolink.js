@@ -8,7 +8,6 @@
   Copyright (c) 2013 Graham Swan
   Licensed under the MIT license - https://github.com/thinkswan/jquery-twitter-autolink/blob/master/LICENSE
 */
-
 (function($) {
   $.fn.twitter_autolink_constants = {
     TWITTER_BASE_URL: 'http://twitter.com/',
