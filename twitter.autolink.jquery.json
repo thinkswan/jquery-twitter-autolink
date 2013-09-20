@@ -1,0 +1,36 @@
+{
+    "name": "twitter.autolink",
+    "title": "jQuery Twitter Autolink",
+    "description": "A jQuery plugin that automatically creates links for URLs, email addresses, @-mentions, and hashtags in embedded tweets from Twitter.",
+    "keywords": [
+        "twitter",
+        "autolink",
+        "tweet",
+        "hashtag"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Graham Swan",
+        "email": "thinkswan@gmail.com",
+        "url": "http://grahamswan.com"
+    },
+    "maintainers": [
+        {
+            "name": "Graham Swan",
+            "email": "thinkswan@gmail.com",
+            "url": "http://grahamswan.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/thinkswan/jquery-twitter-autolink/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/thinkswan/jquery-twitter-autolink/issues",
+    "homepage": "https://github.com/thinkswan/jquery-twitter-autolink",
+    "docs": "https://github.com/thinkswan/jquery-twitter-autolink",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
