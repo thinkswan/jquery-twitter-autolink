@@ -10,7 +10,7 @@ This plugin automatically creates links for URLs, email addresses, @-mentions, a
 
 Include the plugin in your page:
 
-    <script src="httpjquery.twitter.autolink.js"></script>
+    <script src="jquery.twitter.autolink.js"></script>
 
 ## Usage
 
@@ -24,7 +24,7 @@ Consider the following element on your page:
 
     <p class="tweet">Check out this cool new stock video site: dissolve.com. #video #4k /cc @dissolve</p>
 
-Using the plugin on this element:
+Use the plugin on this element:
 
     $(".tweet").twitter_autolink();
 
